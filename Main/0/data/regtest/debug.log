@@ -1,0 +1,763 @@
+2022-04-04T19:18:11Z 
+
+
+
+
+2022-04-04T19:18:11Z Bitcoin Core version v0.18.0 (release build)
+2022-04-04T19:18:11Z Validating signatures for all blocks.
+2022-04-04T19:18:11Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2022-04-04T19:18:11Z Using the 'sse4(1way),sse41(4way),avx2(8way)' SHA256 implementation
+2022-04-04T19:18:11Z Using RdSeed as additional entropy source
+2022-04-04T19:18:11Z Using RdRand as an additional entropy source
+2022-04-04T19:18:11Z Default data directory C:\Users\leroy\AppData\Roaming\Bitcoin
+2022-04-04T19:18:11Z Using data directory C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest
+2022-04-04T19:18:11Z Config file: C:\Users\leroy\Desktop\btcExperiment\Main\0\data\bitcoin.conf
+2022-04-04T19:18:11Z Using at most 125 automatic connections (2048 file descriptors available)
+2022-04-04T19:18:11Z Warning: relative datadir option 'Main\0\data' specified, which will be interpreted relative to the current working directory 'C:\Users\leroy\Desktop\btcExperiment'. This is fragile, because if bitcoin is started in the future from a different location, it will be unable to locate the current data files. There could also be data loss if bitcoin is started while in a temporary directory.
+2022-04-04T19:18:11Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2022-04-04T19:18:11Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2022-04-04T19:18:11Z Using 8 threads for script verification
+2022-04-04T19:18:11Z scheduler thread start
+2022-04-04T19:18:11Z HTTP: creating work queue of depth 16
+2022-04-04T19:18:11Z No rpcpassword set - using random cookie authentication.
+2022-04-04T19:18:11Z Generated RPC authentication cookie C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\.cookie
+2022-04-04T19:18:11Z HTTP: starting 4 worker threads
+2022-04-04T19:18:11Z Using wallet directory C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\wallets
+2022-04-04T19:18:11Z init message: Verifying wallet(s)...
+2022-04-04T19:18:11Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2022-04-04T19:18:11Z Using wallet C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\wallets
+2022-04-04T19:18:11Z BerkeleyEnvironment::Open: LogDir=C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\wallets\database ErrorFile=C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\wallets\db.log
+2022-04-04T19:18:11Z init message: Loading banlist...
+2022-04-04T19:18:11Z ERROR: DeserializeFileDB: Failed to open file C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\banlist.dat
+2022-04-04T19:18:11Z Invalid or missing banlist.dat; recreating
+2022-04-04T19:18:11Z Flushed 0 banned node ips/subnets to banlist.dat  2ms
+2022-04-04T19:18:11Z net: setting try another outbound peer=false
+2022-04-04T19:18:11Z Cache configuration:
+2022-04-04T19:18:11Z * Using 2.0 MiB for block index database
+2022-04-04T19:18:11Z * Using 56.0 MiB for transaction index database
+2022-04-04T19:18:11Z * Using 8.0 MiB for chain state database
+2022-04-04T19:18:11Z * Using 384.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2022-04-04T19:18:11Z init message: Loading block index...
+2022-04-04T19:18:11Z Opening LevelDB in C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\blocks\index
+2022-04-04T19:18:11Z Opened LevelDB successfully
+2022-04-04T19:18:11Z Using obfuscation key for C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\blocks\index: 0000000000000000
+2022-04-04T19:18:11Z LoadBlockIndexDB: last block file = 0
+2022-04-04T19:18:11Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-04-04T19:18:11Z Checking all blk files are present...
+2022-04-04T19:18:11Z Initializing databases...
+2022-04-04T19:18:11Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-04-04T19:18:11Z Opening LevelDB in C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\chainstate
+2022-04-04T19:18:11Z Opened LevelDB successfully
+2022-04-04T19:18:11Z Wrote new obfuscate key for C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\chainstate: 2dc434e29a0902bb
+2022-04-04T19:18:11Z Using obfuscation key for C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\chainstate: 2dc434e29a0902bb
+2022-04-04T19:18:11Z init message: Rewinding blocks...
+2022-04-04T19:18:11Z  block index              32ms
+2022-04-04T19:18:11Z Opening LevelDB in C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\indexes\txindex
+2022-04-04T19:18:11Z Opened LevelDB successfully
+2022-04-04T19:18:11Z Using obfuscation key for C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\indexes\txindex: 0000000000000000
+2022-04-04T19:18:11Z init message: Loading wallet...
+2022-04-04T19:18:11Z txindex thread start
+2022-04-04T19:18:11Z txindex is enabled
+2022-04-04T19:18:11Z txindex thread exit
+2022-04-04T19:18:11Z BerkeleyEnvironment::Open: LogDir=C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\wallets\database ErrorFile=C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\wallets\db.log
+2022-04-04T19:18:11Z ThreadRPCServer incorrect password attempt from 127.0.0.1:50288
+2022-04-04T19:18:11Z [default wallet] nFileVersion = 180000
+2022-04-04T19:18:11Z [default wallet] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2022-04-04T19:18:11Z [default wallet] Performing wallet upgrade to 169900
+2022-04-04T19:18:11Z [default wallet] keypool added 20 keys (10 internal), size=20 (10 internal)
+2022-04-04T19:18:11Z [default wallet] Wallet completed loading in             105ms
+2022-04-04T19:18:11Z [default wallet] setKeyPool.size() = 20
+2022-04-04T19:18:11Z [default wallet] mapWallet.size() = 0
+2022-04-04T19:18:11Z [default wallet] mapAddressBook.size() = 0
+2022-04-04T19:18:11Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2022-04-04T19:18:11Z mapBlockIndex.size() = 1
+2022-04-04T19:18:11Z nBestHeight = 0
+2022-04-04T19:18:11Z Failed to open mempool file from disk. Continuing anyway.
+2022-04-04T19:18:11Z torcontrol thread start
+2022-04-04T19:18:11Z AddLocal([2607:9880:3118:e8:5d50:c5d2:939:1378]:10112,1)
+2022-04-04T19:18:11Z Discover: DESKTOP-P4BCBAN - 2607:9880:3118:e8:5d50:c5d2:939:1378
+2022-04-04T19:18:11Z AddLocal([2607:9880:3118:e8::3cd2]:10112,1)
+2022-04-04T19:18:11Z Discover: DESKTOP-P4BCBAN - 2607:9880:3118:e8::3cd2
+2022-04-04T19:18:11Z AddLocal([2607:9880:3118:e8:c569:b04d:43ab:6296]:10112,1)
+2022-04-04T19:18:11Z Discover: DESKTOP-P4BCBAN - 2607:9880:3118:e8:c569:b04d:43ab:6296
+2022-04-04T19:18:11Z Bound to [::]:10112
+2022-04-04T19:18:11Z Bound to 0.0.0.0:10112
+2022-04-04T19:18:11Z init message: Loading P2P addresses...
+2022-04-04T19:18:11Z ERROR: DeserializeFileDB: Failed to open file C:\Users\leroy\Desktop\btcExperiment\Main\0\data\regtest\peers.dat
+2022-04-04T19:18:11Z Invalid or missing peers.dat; recreating
+2022-04-04T19:18:11Z Flushed 0 addresses to peers.dat  2ms
+2022-04-04T19:18:11Z init message: Starting network threads...
+2022-04-04T19:18:11Z net thread start
+2022-04-04T19:18:11Z dnsseed thread start
+2022-04-04T19:18:11Z Loading addresses from DNS seeds (could take a while)
+2022-04-04T19:18:11Z 0 addresses found from DNS seeds
+2022-04-04T19:18:11Z addcon thread start
+2022-04-04T19:18:11Z init message: Done loading
+2022-04-04T19:18:11Z opencon thread start
+2022-04-04T19:18:11Z dnsseed thread exit
+2022-04-04T19:18:11Z msghand thread start
+2022-04-04T19:18:12Z Added connection peer=0
+2022-04-04T19:18:12Z connection from 127.0.0.1:50318 accepted
+2022-04-04T19:18:12Z received: version (102 bytes) peer=0
+2022-04-04T19:18:12Z sending version (102 bytes) peer=0
+2022-04-04T19:18:12Z send version message: version 70015, blocks=0, us=[::]:0, peer=0
+2022-04-04T19:18:12Z sending verack (0 bytes) peer=0
+2022-04-04T19:18:12Z receive version message: /Satoshi:0.18.0/: version 70015, blocks=0, us=[::]:0, peer=0
+2022-04-04T19:18:12Z added time data, samples 2, offset +0 (+0 minutes)
+2022-04-04T19:18:12Z received: verack (0 bytes) peer=0
+2022-04-04T19:18:12Z sending sendheaders (0 bytes) peer=0
+2022-04-04T19:18:12Z sending sendcmpct (9 bytes) peer=0
+2022-04-04T19:18:12Z sending sendcmpct (9 bytes) peer=0
+2022-04-04T19:18:12Z sending ping (8 bytes) peer=0
+2022-04-04T19:18:12Z initial getheaders (0) to peer=0 (startheight:0)
+2022-04-04T19:18:12Z sending getheaders (69 bytes) peer=0
+2022-04-04T19:18:12Z sending feefilter (8 bytes) peer=0
+2022-04-04T19:18:12Z received: getaddr (0 bytes) peer=0
+2022-04-04T19:18:12Z received: sendheaders (0 bytes) peer=0
+2022-04-04T19:18:12Z received: sendcmpct (9 bytes) peer=0
+2022-04-04T19:18:12Z received: sendcmpct (9 bytes) peer=0
+2022-04-04T19:18:12Z received: ping (8 bytes) peer=0
+2022-04-04T19:18:12Z sending pong (8 bytes) peer=0
+2022-04-04T19:18:12Z received: getheaders (69 bytes) peer=0
+2022-04-04T19:18:12Z Ignoring getheaders from peer=0 because node is in initial block download
+2022-04-04T19:18:12Z received: feefilter (8 bytes) peer=0
+2022-04-04T19:18:12Z received: feefilter of 0.00001000 BTC/kB from peer=0
+2022-04-04T19:18:12Z received: pong (8 bytes) peer=0
+2022-04-04T19:18:12Z pong peer=0: Timing mishap, 9b801d2159012ea1 expected, 9b801d2159012ea1 received, 8 bytes
+2022-04-04T19:18:12Z received: inv (37 bytes) peer=0
+2022-04-04T19:18:12Z got inv: block 50bbfa1a5e3226e525ed8a8b1a9d543f9a737d5dab9ecd1e61c810c5078ea64b  new peer=0
+2022-04-04T19:18:12Z sending getheaders (69 bytes) peer=0
+2022-04-04T19:18:12Z getheaders (0) 50bbfa1a5e3226e525ed8a8b1a9d543f9a737d5dab9ecd1e61c810c5078ea64b to peer=0
+2022-04-04T19:18:12Z received: headers (406 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 324ef8f48324e0d3bda4e904a036bb347104880d5701b7cfc6ebbc8e3cd16e8b (1) peer=0
+2022-04-04T19:18:12Z Requesting block 349737ce325e253a89955f96546c588338179fe8325476e2073ff3c8ca626901 (2) peer=0
+2022-04-04T19:18:12Z Requesting block 02984a0b6a00b9e6d30a73326af62d5fd890a952c927d5e72599e2f5706f05e8 (3) peer=0
+2022-04-04T19:18:12Z Requesting block 6e4414226de09d7c9376e3e75b6d3afed1ac2232f788104fa3a270838cd1ce44 (4) peer=0
+2022-04-04T19:18:12Z Requesting block 50bbfa1a5e3226e525ed8a8b1a9d543f9a737d5dab9ecd1e61c810c5078ea64b (5) peer=0
+2022-04-04T19:18:12Z sending getdata (181 bytes) peer=0
+2022-04-04T19:18:12Z received: headers (244 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 7767986eacb6c73ce63654a54e16c84eb14b877cb39b51e97e8750aadb5186e6 (6) peer=0
+2022-04-04T19:18:12Z Requesting block 7172bc871c30162d2c276acecf978162b7d090e7ffd00d19086da9d593bb1049 (7) peer=0
+2022-04-04T19:18:12Z Requesting block 2612c0e25da58435a540b33f424505ff6ff0c0fed6d422f29b3cd879c305809e (8) peer=0
+2022-04-04T19:18:12Z sending getdata (109 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 324ef8f48324e0d3bda4e904a036bb347104880d5701b7cfc6ebbc8e3cd16e8b peer=0
+2022-04-04T19:18:12Z Pre-allocating up to position 0x100000 in rev00000.dat
+2022-04-04T19:18:12Z Leaving InitialBlockDownload (latching to false)
+2022-04-04T19:18:12Z UpdateTip: new best=324ef8f48324e0d3bda4e904a036bb347104880d5701b7cfc6ebbc8e3cd16e8b height=1 version=0x20000000 log2_work=2 tx=2 date='2022-04-04T19:18:12Z' progress=1.000000 cache=0.0MiB(1txo)
+2022-04-04T19:18:12Z AdvertiseLocal: advertising address [2607:9880:3118:e8::3cd2]:10112
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 16de0080290369dddd71a76c9439a7266d896604862aa88f272d50b49ec5632f from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 349737ce325e253a89955f96546c588338179fe8325476e2073ff3c8ca626901 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=349737ce325e253a89955f96546c588338179fe8325476e2073ff3c8ca626901 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2022-04-04T19:18:13Z' progress=1.000000 cache=0.0MiB(2txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 575beb39dd23c2a44a423070816f466a3483d03375255cf2cece50d64a5cbac7 from  peer=0
+2022-04-04T19:18:12Z Requesting block 68203e073c376b601be3ba81bb23fd7878207e2f05514d043a95c5f3315af78e from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 68203e073c376b601be3ba81bb23fd7878207e2f05514d043a95c5f3315af78e (11) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 02984a0b6a00b9e6d30a73326af62d5fd890a952c927d5e72599e2f5706f05e8 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=02984a0b6a00b9e6d30a73326af62d5fd890a952c927d5e72599e2f5706f05e8 height=3 version=0x20000000 log2_work=3 tx=4 date='2022-04-04T19:18:13Z' progress=1.000000 cache=0.0MiB(3txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 6e4414226de09d7c9376e3e75b6d3afed1ac2232f788104fa3a270838cd1ce44 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=6e4414226de09d7c9376e3e75b6d3afed1ac2232f788104fa3a270838cd1ce44 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2022-04-04T19:18:14Z' progress=1.000000 cache=0.0MiB(4txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 2e33e147e174957ee7f3000ad24b9e43cc32ec82b65a0c591b396acca0438c3a from  peer=0
+2022-04-04T19:18:12Z Requesting block 54cf38342e862aeea35133e3afea8011f0b9560c94ea6b2a765044d60f3310e0 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 54cf38342e862aeea35133e3afea8011f0b9560c94ea6b2a765044d60f3310e0 (13) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 50bbfa1a5e3226e525ed8a8b1a9d543f9a737d5dab9ecd1e61c810c5078ea64b peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=50bbfa1a5e3226e525ed8a8b1a9d543f9a737d5dab9ecd1e61c810c5078ea64b height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2022-04-04T19:18:14Z' progress=1.000000 cache=0.0MiB(5txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 7767986eacb6c73ce63654a54e16c84eb14b877cb39b51e97e8750aadb5186e6 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7767986eacb6c73ce63654a54e16c84eb14b877cb39b51e97e8750aadb5186e6 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2022-04-04T19:18:14Z' progress=1.000000 cache=0.0MiB(6txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 669fb751fd49e78c6ede3ee87b567d6f8214cde4fa728ea623ce3026b61fa536 from  peer=0
+2022-04-04T19:18:12Z Requesting block 36f773811ed17bc3cc69c77c27ae731bcc6a534de83d72bb53143af3697ba61b from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 36f773811ed17bc3cc69c77c27ae731bcc6a534de83d72bb53143af3697ba61b (15) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 7172bc871c30162d2c276acecf978162b7d090e7ffd00d19086da9d593bb1049 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7172bc871c30162d2c276acecf978162b7d090e7ffd00d19086da9d593bb1049 height=7 version=0x20000000 log2_work=4 tx=8 date='2022-04-04T19:18:14Z' progress=1.000000 cache=0.0MiB(7txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 1d4d5195ecf350e65459874198179e1d8cb412b46ac627f0eb0c32c10b0d4a13 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 2612c0e25da58435a540b33f424505ff6ff0c0fed6d422f29b3cd879c305809e peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2612c0e25da58435a540b33f424505ff6ff0c0fed6d422f29b3cd879c305809e height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2022-04-04T19:18:15Z' progress=1.000000 cache=0.0MiB(8txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 16de0080290369dddd71a76c9439a7266d896604862aa88f272d50b49ec5632f peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=16de0080290369dddd71a76c9439a7266d896604862aa88f272d50b49ec5632f height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2022-04-04T19:18:15Z' progress=1.000000 cache=0.0MiB(9txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 7cf7b76988d7403af36edce89bb5ada2f13ea12630cceea077a5be9562577290 from  peer=0
+2022-04-04T19:18:12Z Requesting block 2d823c4e1096bdec760bb1116de19ebb96dedbd55e55d60b1264426b0ad45ad9 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 2d823c4e1096bdec760bb1116de19ebb96dedbd55e55d60b1264426b0ad45ad9 (18) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 575beb39dd23c2a44a423070816f466a3483d03375255cf2cece50d64a5cbac7 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=575beb39dd23c2a44a423070816f466a3483d03375255cf2cece50d64a5cbac7 height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2022-04-04T19:18:15Z' progress=1.000000 cache=0.0MiB(10txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 6a9a51b8b52370549862186ca83ed4ed34a80f3253b4c283429bde0e79dc6823 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 68203e073c376b601be3ba81bb23fd7878207e2f05514d043a95c5f3315af78e peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=68203e073c376b601be3ba81bb23fd7878207e2f05514d043a95c5f3315af78e height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2022-04-04T19:18:15Z' progress=1.000000 cache=0.0MiB(11txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 2e33e147e174957ee7f3000ad24b9e43cc32ec82b65a0c591b396acca0438c3a peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2e33e147e174957ee7f3000ad24b9e43cc32ec82b65a0c591b396acca0438c3a height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2022-04-04T19:18:15Z' progress=1.000000 cache=0.0MiB(12txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 0c1ab466f1b4b23542e8abf031533568d34d77645dd1bbfbd124ce34d65d584e from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 54cf38342e862aeea35133e3afea8011f0b9560c94ea6b2a765044d60f3310e0 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=54cf38342e862aeea35133e3afea8011f0b9560c94ea6b2a765044d60f3310e0 height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2022-04-04T19:18:15Z' progress=1.000000 cache=0.0MiB(13txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 669fb751fd49e78c6ede3ee87b567d6f8214cde4fa728ea623ce3026b61fa536 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=669fb751fd49e78c6ede3ee87b567d6f8214cde4fa728ea623ce3026b61fa536 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2022-04-04T19:18:16Z' progress=1.000000 cache=0.0MiB(14txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 36f773811ed17bc3cc69c77c27ae731bcc6a534de83d72bb53143af3697ba61b peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=36f773811ed17bc3cc69c77c27ae731bcc6a534de83d72bb53143af3697ba61b height=15 version=0x20000000 log2_work=5 tx=16 date='2022-04-04T19:18:16Z' progress=1.000000 cache=0.0MiB(15txo)
+2022-04-04T19:18:12Z received: block (250 bytes) peer=0
+2022-04-04T19:18:12Z received block 1d4d5195ecf350e65459874198179e1d8cb412b46ac627f0eb0c32c10b0d4a13 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=1d4d5195ecf350e65459874198179e1d8cb412b46ac627f0eb0c32c10b0d4a13 height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2022-04-04T19:18:16Z' progress=1.000000 cache=0.0MiB(16txo)
+2022-04-04T19:18:12Z received: headers (406 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 7e124469fe6edb2dddf09ec721250317b479a89988ce79969057746dbe2e3e46 from  peer=0
+2022-04-04T19:18:12Z Requesting block 64f617ed38ccb0e2369ec05e8a08bf783a156a61ff8d7b9f6b35cb84884d4b47 from  peer=0
+2022-04-04T19:18:12Z Requesting block 6ce1add267ba0bb243d3d14c4dceb8cb50556998723ce7831f17c2b8cc466064 from  peer=0
+2022-04-04T19:18:12Z Requesting block 61c819ba373253e1a8fdcacfc6763b647ca31c85d47a9b3858d12e0d048b2247 from  peer=0
+2022-04-04T19:18:12Z Requesting block 7f9830c54a260df1fe2941f6cf1ae2ed7f40c9adb613df542efb380d1865f3ea from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 7f9830c54a260df1fe2941f6cf1ae2ed7f40c9adb613df542efb380d1865f3ea (25) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (181 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 7cf7b76988d7403af36edce89bb5ada2f13ea12630cceea077a5be9562577290 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7cf7b76988d7403af36edce89bb5ada2f13ea12630cceea077a5be9562577290 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2022-04-04T19:18:16Z' progress=1.000000 cache=0.0MiB(17txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 378557096c9be132f5133b974ead9aef24cfcefedee6fa50f6bb154bc6ab2dc4 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 2d823c4e1096bdec760bb1116de19ebb96dedbd55e55d60b1264426b0ad45ad9 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2d823c4e1096bdec760bb1116de19ebb96dedbd55e55d60b1264426b0ad45ad9 height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2022-04-04T19:18:16Z' progress=1.000000 cache=0.0MiB(18txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 6a9a51b8b52370549862186ca83ed4ed34a80f3253b4c283429bde0e79dc6823 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=6a9a51b8b52370549862186ca83ed4ed34a80f3253b4c283429bde0e79dc6823 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2022-04-04T19:18:16Z' progress=1.000000 cache=0.0MiB(19txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 0c1ab466f1b4b23542e8abf031533568d34d77645dd1bbfbd124ce34d65d584e peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=0c1ab466f1b4b23542e8abf031533568d34d77645dd1bbfbd124ce34d65d584e height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2022-04-04T19:18:17Z' progress=1.000000 cache=0.0MiB(20txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 6593cff582d16691609eafb0b0279de9d25ee3b2154d3694b5d0c68ee112f7a3 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 1252b561b81bb272291b9dee72ee681a0a8a7c4247a0158c87545aca21d6de03 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 7e124469fe6edb2dddf09ec721250317b479a89988ce79969057746dbe2e3e46 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7e124469fe6edb2dddf09ec721250317b479a89988ce79969057746dbe2e3e46 height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2022-04-04T19:18:17Z' progress=1.000000 cache=0.0MiB(21txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 61a39e7f069d7e0c1443abbf69b8ff137e1b8876b48310e56c8954acdb803271 from  peer=0
+2022-04-04T19:18:12Z Requesting block 45fc686ec722dfc4ea095d8d9ce28f1067d00022e7793ef386a410373ece1afc from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 45fc686ec722dfc4ea095d8d9ce28f1067d00022e7793ef386a410373ece1afc (30) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 64f617ed38ccb0e2369ec05e8a08bf783a156a61ff8d7b9f6b35cb84884d4b47 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=64f617ed38ccb0e2369ec05e8a08bf783a156a61ff8d7b9f6b35cb84884d4b47 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2022-04-04T19:18:17Z' progress=1.000000 cache=0.0MiB(22txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 4b59edfd62c1fccac843bd40c0421eeb08587cf87d4488d0a6147a983f9e5136 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 6ce1add267ba0bb243d3d14c4dceb8cb50556998723ce7831f17c2b8cc466064 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=6ce1add267ba0bb243d3d14c4dceb8cb50556998723ce7831f17c2b8cc466064 height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2022-04-04T19:18:17Z' progress=1.000000 cache=0.0MiB(23txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 61c819ba373253e1a8fdcacfc6763b647ca31c85d47a9b3858d12e0d048b2247 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=61c819ba373253e1a8fdcacfc6763b647ca31c85d47a9b3858d12e0d048b2247 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2022-04-04T19:18:17Z' progress=1.000000 cache=0.0MiB(24txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 4e27b946e6397149421096124e007ed4adaf3e307e85734f74a7a0416e05187f from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 7f9830c54a260df1fe2941f6cf1ae2ed7f40c9adb613df542efb380d1865f3ea peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7f9830c54a260df1fe2941f6cf1ae2ed7f40c9adb613df542efb380d1865f3ea height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2022-04-04T19:18:17Z' progress=1.000000 cache=0.0MiB(25txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 378557096c9be132f5133b974ead9aef24cfcefedee6fa50f6bb154bc6ab2dc4 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=378557096c9be132f5133b974ead9aef24cfcefedee6fa50f6bb154bc6ab2dc4 height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2022-04-04T19:18:18Z' progress=1.000000 cache=0.0MiB(26txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 247fc5ce7f5a177d92da1b2060e8b408995b11ff0bea2259f634b6ec97c743af from  peer=0
+2022-04-04T19:18:12Z Requesting block 74b9d4c7b29f8e3e748ac22ea1c42eab85ac8838b4b5cff07c14c6d905bb2176 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 74b9d4c7b29f8e3e748ac22ea1c42eab85ac8838b4b5cff07c14c6d905bb2176 (34) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 6593cff582d16691609eafb0b0279de9d25ee3b2154d3694b5d0c68ee112f7a3 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=6593cff582d16691609eafb0b0279de9d25ee3b2154d3694b5d0c68ee112f7a3 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2022-04-04T19:18:18Z' progress=1.000000 cache=0.0MiB(27txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 404e737713572598ade16c2444c8d44c2a3bed449ac773b60de8696389f6cdfa from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 1252b561b81bb272291b9dee72ee681a0a8a7c4247a0158c87545aca21d6de03 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=1252b561b81bb272291b9dee72ee681a0a8a7c4247a0158c87545aca21d6de03 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2022-04-04T19:18:18Z' progress=1.000000 cache=0.0MiB(28txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 4ea5f8cb9ea317b039d34c967f870ca8c87ac59d174fcf27de0c8636f8512e11 from  peer=0
+2022-04-04T19:18:12Z Requesting block 2cefe7b86403f0cf3b00a1643e047f9ced9c4a77f9cb6b7da19773f546702d22 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 2cefe7b86403f0cf3b00a1643e047f9ced9c4a77f9cb6b7da19773f546702d22 (37) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 61a39e7f069d7e0c1443abbf69b8ff137e1b8876b48310e56c8954acdb803271 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=61a39e7f069d7e0c1443abbf69b8ff137e1b8876b48310e56c8954acdb803271 height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2022-04-04T19:18:18Z' progress=1.000000 cache=0.0MiB(29txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 45fc686ec722dfc4ea095d8d9ce28f1067d00022e7793ef386a410373ece1afc peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=45fc686ec722dfc4ea095d8d9ce28f1067d00022e7793ef386a410373ece1afc height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2022-04-04T19:18:18Z' progress=1.000000 cache=0.0MiB(30txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 4b59edfd62c1fccac843bd40c0421eeb08587cf87d4488d0a6147a983f9e5136 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=4b59edfd62c1fccac843bd40c0421eeb08587cf87d4488d0a6147a983f9e5136 height=31 version=0x20000000 log2_work=6 tx=32 date='2022-04-04T19:18:18Z' progress=1.000000 cache=0.0MiB(31txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 35bdfdabf7bdec4753374781654b2deaa053a3d82bdf580152ee093a42775106 from  peer=0
+2022-04-04T19:18:12Z Requesting block 10705b60eb599ff31b1dd9070038ad171e7fe5c815e27da8cfa4284bcc596f01 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 10705b60eb599ff31b1dd9070038ad171e7fe5c815e27da8cfa4284bcc596f01 (39) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 4e27b946e6397149421096124e007ed4adaf3e307e85734f74a7a0416e05187f peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=4e27b946e6397149421096124e007ed4adaf3e307e85734f74a7a0416e05187f height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2022-04-04T19:18:19Z' progress=1.000000 cache=0.0MiB(32txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 7134b42fd6ea263ceeeb627ebaa5a429281cfa30d914774c5224703f200c9eb1 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 247fc5ce7f5a177d92da1b2060e8b408995b11ff0bea2259f634b6ec97c743af peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=247fc5ce7f5a177d92da1b2060e8b408995b11ff0bea2259f634b6ec97c743af height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2022-04-04T19:18:19Z' progress=1.000000 cache=0.0MiB(33txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 74b9d4c7b29f8e3e748ac22ea1c42eab85ac8838b4b5cff07c14c6d905bb2176 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=74b9d4c7b29f8e3e748ac22ea1c42eab85ac8838b4b5cff07c14c6d905bb2176 height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2022-04-04T19:18:19Z' progress=1.000000 cache=0.0MiB(34txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 404e737713572598ade16c2444c8d44c2a3bed449ac773b60de8696389f6cdfa peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=404e737713572598ade16c2444c8d44c2a3bed449ac773b60de8696389f6cdfa height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2022-04-04T19:18:19Z' progress=1.000000 cache=0.0MiB(35txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 39c9b9a1ec9446115065271a7a2e4c3754192744859888cd41fe0514bd331589 from  peer=0
+2022-04-04T19:18:12Z Requesting block 1e7e415d75e8c0e0c2cfe847b1d5b32e8038414aacf8514306cd1a3ce8b076f4 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 1e7e415d75e8c0e0c2cfe847b1d5b32e8038414aacf8514306cd1a3ce8b076f4 (42) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 4ea5f8cb9ea317b039d34c967f870ca8c87ac59d174fcf27de0c8636f8512e11 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=4ea5f8cb9ea317b039d34c967f870ca8c87ac59d174fcf27de0c8636f8512e11 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2022-04-04T19:18:19Z' progress=1.000000 cache=0.0MiB(36txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 402f3bf4407c895fe697e166f5dddd3630b8bc550f54178966c125c6bc9736a5 from  peer=0
+2022-04-04T19:18:12Z Requesting block 059e96478af886004761aa6b9b68e7ba9fb1e336533ae01d6f09aee68d91988f from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 059e96478af886004761aa6b9b68e7ba9fb1e336533ae01d6f09aee68d91988f (44) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 2cefe7b86403f0cf3b00a1643e047f9ced9c4a77f9cb6b7da19773f546702d22 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2cefe7b86403f0cf3b00a1643e047f9ced9c4a77f9cb6b7da19773f546702d22 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2022-04-04T19:18:19Z' progress=1.000000 cache=0.0MiB(37txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 35bdfdabf7bdec4753374781654b2deaa053a3d82bdf580152ee093a42775106 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=35bdfdabf7bdec4753374781654b2deaa053a3d82bdf580152ee093a42775106 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2022-04-04T19:18:20Z' progress=1.000000 cache=0.0MiB(38txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 5aaa00e5948cef3febb3b2b8131ea579bc482bb996da2b76671606bce249eecf from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 10705b60eb599ff31b1dd9070038ad171e7fe5c815e27da8cfa4284bcc596f01 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=10705b60eb599ff31b1dd9070038ad171e7fe5c815e27da8cfa4284bcc596f01 height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2022-04-04T19:18:20Z' progress=1.000000 cache=0.0MiB(39txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 7134b42fd6ea263ceeeb627ebaa5a429281cfa30d914774c5224703f200c9eb1 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7134b42fd6ea263ceeeb627ebaa5a429281cfa30d914774c5224703f200c9eb1 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2022-04-04T19:18:20Z' progress=1.000000 cache=0.0MiB(40txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 17a900d3a519f475588494ffacc8118af33b1a3eba0d02c1babaa869838206f2 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 39c9b9a1ec9446115065271a7a2e4c3754192744859888cd41fe0514bd331589 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=39c9b9a1ec9446115065271a7a2e4c3754192744859888cd41fe0514bd331589 height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2022-04-04T19:18:20Z' progress=1.000000 cache=0.0MiB(41txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 5077045e7d55c4a43422fae01ebeaeffadd20437030d3dfa2c46baa4aec62ae0 from  peer=0
+2022-04-04T19:18:12Z Requesting block 0e8ebfd1dcba10b3e0d20919b20457f8533284f9b4d730218a883421e73c4d5f from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 0e8ebfd1dcba10b3e0d20919b20457f8533284f9b4d730218a883421e73c4d5f (48) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 1e7e415d75e8c0e0c2cfe847b1d5b32e8038414aacf8514306cd1a3ce8b076f4 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=1e7e415d75e8c0e0c2cfe847b1d5b32e8038414aacf8514306cd1a3ce8b076f4 height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2022-04-04T19:18:20Z' progress=1.000000 cache=0.0MiB(42txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 402f3bf4407c895fe697e166f5dddd3630b8bc550f54178966c125c6bc9736a5 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=402f3bf4407c895fe697e166f5dddd3630b8bc550f54178966c125c6bc9736a5 height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2022-04-04T19:18:20Z' progress=1.000000 cache=0.0MiB(43txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 059e96478af886004761aa6b9b68e7ba9fb1e336533ae01d6f09aee68d91988f peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=059e96478af886004761aa6b9b68e7ba9fb1e336533ae01d6f09aee68d91988f height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2022-04-04T19:18:21Z' progress=1.000000 cache=0.0MiB(44txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 5aaa00e5948cef3febb3b2b8131ea579bc482bb996da2b76671606bce249eecf peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=5aaa00e5948cef3febb3b2b8131ea579bc482bb996da2b76671606bce249eecf height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2022-04-04T19:18:21Z' progress=1.000000 cache=0.0MiB(45txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 5e4f9f4b976e439a95f9aa355580a9938a21d695682af785a296cd1d55b66062 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 17a900d3a519f475588494ffacc8118af33b1a3eba0d02c1babaa869838206f2 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=17a900d3a519f475588494ffacc8118af33b1a3eba0d02c1babaa869838206f2 height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2022-04-04T19:18:21Z' progress=1.000000 cache=0.0MiB(46txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 58d1100d7993be22425e4c3cc4ab4b1775b057425bd27845e5ffaa74fc10a847 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 5077045e7d55c4a43422fae01ebeaeffadd20437030d3dfa2c46baa4aec62ae0 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=5077045e7d55c4a43422fae01ebeaeffadd20437030d3dfa2c46baa4aec62ae0 height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2022-04-04T19:18:21Z' progress=1.000000 cache=0.0MiB(47txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 344ef833cc6820726cb9a07545f73bf6d948229f411804fc9a7fefbce226b60b from  peer=0
+2022-04-04T19:18:12Z Requesting block 63816ee6ecb8867a0790a90da6363f471786d99ca63b7ed09dd7eac4ddcf5b2e from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 63816ee6ecb8867a0790a90da6363f471786d99ca63b7ed09dd7eac4ddcf5b2e (52) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 0e8ebfd1dcba10b3e0d20919b20457f8533284f9b4d730218a883421e73c4d5f peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=0e8ebfd1dcba10b3e0d20919b20457f8533284f9b4d730218a883421e73c4d5f height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2022-04-04T19:18:21Z' progress=1.000000 cache=0.0MiB(48txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 5e4f9f4b976e439a95f9aa355580a9938a21d695682af785a296cd1d55b66062 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=5e4f9f4b976e439a95f9aa355580a9938a21d695682af785a296cd1d55b66062 height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2022-04-04T19:18:21Z' progress=1.000000 cache=0.0MiB(49txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 2eeb247807fa6603d770d9cdf25169f1108f3eca73ff0979ac8c45699dc8caa5 from  peer=0
+2022-04-04T19:18:12Z Requesting block 121fe989efd7a4de8594111498d9c8727f7e813abf7060cc072c34c8697445b7 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 121fe989efd7a4de8594111498d9c8727f7e813abf7060cc072c34c8697445b7 (54) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 38f5b4c8a6ac4ce5fa0ae2b67a3e40fc95a7fc1839a81d2be7319d52b9005900 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 58d1100d7993be22425e4c3cc4ab4b1775b057425bd27845e5ffaa74fc10a847 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=58d1100d7993be22425e4c3cc4ab4b1775b057425bd27845e5ffaa74fc10a847 height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2022-04-04T19:18:22Z' progress=1.000000 cache=0.0MiB(50txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 15f7bf87f2396c217f68f1b64d275798e4d3949930a57634a227c1a38d775606 from  peer=0
+2022-04-04T19:18:12Z Requesting block 2af50a6a003ff45fd2f0899e8009ef2d7cc83d9ab32035799b610f7f36990c7a from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 2af50a6a003ff45fd2f0899e8009ef2d7cc83d9ab32035799b610f7f36990c7a (57) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 344ef833cc6820726cb9a07545f73bf6d948229f411804fc9a7fefbce226b60b peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=344ef833cc6820726cb9a07545f73bf6d948229f411804fc9a7fefbce226b60b height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2022-04-04T19:18:22Z' progress=1.000000 cache=0.0MiB(51txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 569804d5a95c8019927156b6bfa397de470e06a1cf7910da8f33ed1812e999d1 from  peer=0
+2022-04-04T19:18:12Z Requesting block 35a713bb5b9c96af4a144f3a57618962a831d0c83fe0601d23e720091651ce4d from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 35a713bb5b9c96af4a144f3a57618962a831d0c83fe0601d23e720091651ce4d (59) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 63816ee6ecb8867a0790a90da6363f471786d99ca63b7ed09dd7eac4ddcf5b2e peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=63816ee6ecb8867a0790a90da6363f471786d99ca63b7ed09dd7eac4ddcf5b2e height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2022-04-04T19:18:22Z' progress=1.000000 cache=0.0MiB(52txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 2eeb247807fa6603d770d9cdf25169f1108f3eca73ff0979ac8c45699dc8caa5 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2eeb247807fa6603d770d9cdf25169f1108f3eca73ff0979ac8c45699dc8caa5 height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2022-04-04T19:18:22Z' progress=1.000000 cache=0.0MiB(53txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 335e6956a1d470c2f3f59e67362a9aea40a1887b13045ff48c4db6f56790af57 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 121fe989efd7a4de8594111498d9c8727f7e813abf7060cc072c34c8697445b7 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=121fe989efd7a4de8594111498d9c8727f7e813abf7060cc072c34c8697445b7 height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2022-04-04T19:18:22Z' progress=1.000000 cache=0.0MiB(54txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 38f5b4c8a6ac4ce5fa0ae2b67a3e40fc95a7fc1839a81d2be7319d52b9005900 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=38f5b4c8a6ac4ce5fa0ae2b67a3e40fc95a7fc1839a81d2be7319d52b9005900 height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2022-04-04T19:18:22Z' progress=1.000000 cache=0.0MiB(55txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 15e01d02b6ca7747cd9d0cc741c1af8ad2b388f02f893df2b1f78380227435e9 from  peer=0
+2022-04-04T19:18:12Z Requesting block 7a25aa86a78c3d04145ee5e38b0ef4d67728439a234b6bba1612f371bdad433a from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 7a25aa86a78c3d04145ee5e38b0ef4d67728439a234b6bba1612f371bdad433a (62) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 15f7bf87f2396c217f68f1b64d275798e4d3949930a57634a227c1a38d775606 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=15f7bf87f2396c217f68f1b64d275798e4d3949930a57634a227c1a38d775606 height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2022-04-04T19:18:23Z' progress=1.000000 cache=0.0MiB(56txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 0fd10be16efb0b4d47c957219f1e57d2506c5f7c2831165f1ebec500425b163e from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 2af50a6a003ff45fd2f0899e8009ef2d7cc83d9ab32035799b610f7f36990c7a peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2af50a6a003ff45fd2f0899e8009ef2d7cc83d9ab32035799b610f7f36990c7a height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2022-04-04T19:18:23Z' progress=1.000000 cache=0.0MiB(57txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 569804d5a95c8019927156b6bfa397de470e06a1cf7910da8f33ed1812e999d1 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=569804d5a95c8019927156b6bfa397de470e06a1cf7910da8f33ed1812e999d1 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2022-04-04T19:18:23Z' progress=1.000000 cache=0.0MiB(58txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 018f2d37c1b9e69b5f58adf4078626a6fa79764547178a198e0b6a01822a108c from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 35a713bb5b9c96af4a144f3a57618962a831d0c83fe0601d23e720091651ce4d peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=35a713bb5b9c96af4a144f3a57618962a831d0c83fe0601d23e720091651ce4d height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2022-04-04T19:18:23Z' progress=1.000000 cache=0.0MiB(59txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 335e6956a1d470c2f3f59e67362a9aea40a1887b13045ff48c4db6f56790af57 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=335e6956a1d470c2f3f59e67362a9aea40a1887b13045ff48c4db6f56790af57 height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2022-04-04T19:18:23Z' progress=1.000000 cache=0.0MiB(60txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 566d7c08aa3481c5733323cde593e587140f8777c9aa04421ba34f0e26f6b24c from  peer=0
+2022-04-04T19:18:12Z Requesting block 46e0e240080ba7efc958b32060d37413fc6e5ead902ef6251b40132f0fdcca59 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 46e0e240080ba7efc958b32060d37413fc6e5ead902ef6251b40132f0fdcca59 (66) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 15e01d02b6ca7747cd9d0cc741c1af8ad2b388f02f893df2b1f78380227435e9 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=15e01d02b6ca7747cd9d0cc741c1af8ad2b388f02f893df2b1f78380227435e9 height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2022-04-04T19:18:23Z' progress=1.000000 cache=0.0MiB(61txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 7a25aa86a78c3d04145ee5e38b0ef4d67728439a234b6bba1612f371bdad433a peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7a25aa86a78c3d04145ee5e38b0ef4d67728439a234b6bba1612f371bdad433a height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2022-04-04T19:18:24Z' progress=1.000000 cache=0.0MiB(62txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 0fd10be16efb0b4d47c957219f1e57d2506c5f7c2831165f1ebec500425b163e peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=0fd10be16efb0b4d47c957219f1e57d2506c5f7c2831165f1ebec500425b163e height=63 version=0x20000000 log2_work=7 tx=64 date='2022-04-04T19:18:24Z' progress=1.000000 cache=0.0MiB(63txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 0d3d93caae4395ecb57928b802230f7dc9f7ec0ba255f806ffcdabdb94af58c8 from  peer=0
+2022-04-04T19:18:12Z Requesting block 5de1b68c5e0f6e83ae454a49583b440f95843d83e7c61e4e02679e6fe2e8d651 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 5de1b68c5e0f6e83ae454a49583b440f95843d83e7c61e4e02679e6fe2e8d651 (68) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 018f2d37c1b9e69b5f58adf4078626a6fa79764547178a198e0b6a01822a108c peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=018f2d37c1b9e69b5f58adf4078626a6fa79764547178a198e0b6a01822a108c height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2022-04-04T19:18:24Z' progress=1.000000 cache=0.0MiB(64txo)
+2022-04-04T19:18:12Z received: headers (244 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 106b429df7f5bd9e9306b3677d6e9d40f68eb4955f964de6f8437b77703ecbfd from  peer=0
+2022-04-04T19:18:12Z Requesting block 6db7cdce44c07c68b455e1407f9c8ac128440f9c58ee3270036e2be1312235e5 from  peer=0
+2022-04-04T19:18:12Z Requesting block 3288051ac8b48387f5cb646293eca49252454b2758357f3782b2c05615a81eaa from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 3288051ac8b48387f5cb646293eca49252454b2758357f3782b2c05615a81eaa (71) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (109 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 566d7c08aa3481c5733323cde593e587140f8777c9aa04421ba34f0e26f6b24c peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=566d7c08aa3481c5733323cde593e587140f8777c9aa04421ba34f0e26f6b24c height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2022-04-04T19:18:24Z' progress=1.000000 cache=0.0MiB(65txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 46e0e240080ba7efc958b32060d37413fc6e5ead902ef6251b40132f0fdcca59 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=46e0e240080ba7efc958b32060d37413fc6e5ead902ef6251b40132f0fdcca59 height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2022-04-04T19:18:24Z' progress=1.000000 cache=0.0MiB(66txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 0d3d93caae4395ecb57928b802230f7dc9f7ec0ba255f806ffcdabdb94af58c8 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=0d3d93caae4395ecb57928b802230f7dc9f7ec0ba255f806ffcdabdb94af58c8 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2022-04-04T19:18:24Z' progress=1.000000 cache=0.0MiB(67txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 55dac888311b145462e80051e49bff02b9da0a954ccb050d54ac30b94382e47b from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 5de1b68c5e0f6e83ae454a49583b440f95843d83e7c61e4e02679e6fe2e8d651 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=5de1b68c5e0f6e83ae454a49583b440f95843d83e7c61e4e02679e6fe2e8d651 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2022-04-04T19:18:25Z' progress=1.000000 cache=0.0MiB(68txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 106b429df7f5bd9e9306b3677d6e9d40f68eb4955f964de6f8437b77703ecbfd peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=106b429df7f5bd9e9306b3677d6e9d40f68eb4955f964de6f8437b77703ecbfd height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2022-04-04T19:18:25Z' progress=1.000000 cache=0.0MiB(69txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 3c47958218ad39cb6b95357697bde71cbfc94c3e8338865766247fce1ee87601 from  peer=0
+2022-04-04T19:18:12Z Requesting block 2480239b8e08943ffba3fc4f9827699519881edfa32008503fe62cdd42ad723f from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 2480239b8e08943ffba3fc4f9827699519881edfa32008503fe62cdd42ad723f (74) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 6db7cdce44c07c68b455e1407f9c8ac128440f9c58ee3270036e2be1312235e5 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=6db7cdce44c07c68b455e1407f9c8ac128440f9c58ee3270036e2be1312235e5 height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2022-04-04T19:18:25Z' progress=1.000000 cache=0.0MiB(70txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 52144b2ace0c4329260e4dbd16d9e02898a248038e03ed998adee4fbaca48139 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 3288051ac8b48387f5cb646293eca49252454b2758357f3782b2c05615a81eaa peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=3288051ac8b48387f5cb646293eca49252454b2758357f3782b2c05615a81eaa height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2022-04-04T19:18:25Z' progress=1.000000 cache=0.0MiB(71txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 55dac888311b145462e80051e49bff02b9da0a954ccb050d54ac30b94382e47b peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=55dac888311b145462e80051e49bff02b9da0a954ccb050d54ac30b94382e47b height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2022-04-04T19:18:25Z' progress=1.000000 cache=0.0MiB(72txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 3c47958218ad39cb6b95357697bde71cbfc94c3e8338865766247fce1ee87601 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=3c47958218ad39cb6b95357697bde71cbfc94c3e8338865766247fce1ee87601 height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2022-04-04T19:18:25Z' progress=1.000000 cache=0.0MiB(73txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 2480239b8e08943ffba3fc4f9827699519881edfa32008503fe62cdd42ad723f peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2480239b8e08943ffba3fc4f9827699519881edfa32008503fe62cdd42ad723f height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2022-04-04T19:18:26Z' progress=1.000000 cache=0.0MiB(74txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 52144b2ace0c4329260e4dbd16d9e02898a248038e03ed998adee4fbaca48139 peer=0
+2022-04-04T19:18:12Z sending sendcmpct (9 bytes) peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=52144b2ace0c4329260e4dbd16d9e02898a248038e03ed998adee4fbaca48139 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2022-04-04T19:18:26Z' progress=1.000000 cache=0.0MiB(75txo)
+2022-04-04T19:18:12Z received: headers (82 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 277138a972404b6fd3005fb485f7ee35180793cd68121287d9980fbc5a22c006 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 554b7b0df49fdf7a45fc6bcde077dcf9b3cf7a8dd7e30c16d0f6133a035fc095 from  peer=0
+2022-04-04T19:18:12Z Requesting block 57406f7f1b0101453d48dd53f9b52b082f3e59ebea790aa146acf1572e31ff4f from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 57406f7f1b0101453d48dd53f9b52b082f3e59ebea790aa146acf1572e31ff4f (78) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z received: blocktxn (33 bytes) peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=277138a972404b6fd3005fb485f7ee35180793cd68121287d9980fbc5a22c006 height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2022-04-04T19:18:26Z' progress=1.000000 cache=0.0MiB(76txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 464b1eb83d5bc07147495422055ac9f145d211bfce895b6452756813f689398d from  peer=0
+2022-04-04T19:18:12Z Requesting block 43f777cf5953648bc28c6a24a27b949535d73f44e7770ce08072419026f9fd13 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 43f777cf5953648bc28c6a24a27b949535d73f44e7770ce08072419026f9fd13 (80) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 554b7b0df49fdf7a45fc6bcde077dcf9b3cf7a8dd7e30c16d0f6133a035fc095 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=554b7b0df49fdf7a45fc6bcde077dcf9b3cf7a8dd7e30c16d0f6133a035fc095 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2022-04-04T19:18:26Z' progress=1.000000 cache=0.0MiB(77txo)
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 25e21f9dfb136eeb3b53985c0dcc3ef683e0c2673de1e9af677c9e6b22ca0328 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 57406f7f1b0101453d48dd53f9b52b082f3e59ebea790aa146acf1572e31ff4f peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=57406f7f1b0101453d48dd53f9b52b082f3e59ebea790aa146acf1572e31ff4f height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2022-04-04T19:18:26Z' progress=1.000000 cache=0.0MiB(78txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 464b1eb83d5bc07147495422055ac9f145d211bfce895b6452756813f689398d peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=464b1eb83d5bc07147495422055ac9f145d211bfce895b6452756813f689398d height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2022-04-04T19:18:26Z' progress=1.000000 cache=0.0MiB(79txo)
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 538447bd7ab4831d0abd804d5a7b36df7110d8e51e3f93ab444e369797a4bfc0 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 43f777cf5953648bc28c6a24a27b949535d73f44e7770ce08072419026f9fd13 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=43f777cf5953648bc28c6a24a27b949535d73f44e7770ce08072419026f9fd13 height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2022-04-04T19:18:27Z' progress=1.000000 cache=0.0MiB(80txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 25e21f9dfb136eeb3b53985c0dcc3ef683e0c2673de1e9af677c9e6b22ca0328 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=25e21f9dfb136eeb3b53985c0dcc3ef683e0c2673de1e9af677c9e6b22ca0328 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2022-04-04T19:18:27Z' progress=1.000000 cache=0.0MiB(81txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 538447bd7ab4831d0abd804d5a7b36df7110d8e51e3f93ab444e369797a4bfc0 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=538447bd7ab4831d0abd804d5a7b36df7110d8e51e3f93ab444e369797a4bfc0 height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2022-04-04T19:18:27Z' progress=1.000000 cache=0.0MiB(82txo)
+2022-04-04T19:18:12Z received: headers (325 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 622e3e99700a9a55938fa34d2eee8fd222ecd300b958cf8e2f09bd15070de6a5 from  peer=0
+2022-04-04T19:18:12Z Requesting block 00c66eb9f634631e1f9275a1495ea8f51d0d779667ca6e7f23b21dc70f7b9aae from  peer=0
+2022-04-04T19:18:12Z Requesting block 425a9dafd9de44b4a5d1398c59e0b713687a165084296d51fa194520d21619db from  peer=0
+2022-04-04T19:18:12Z Requesting block 5d6fdaca72f3ba22fcbf0b27261148b1dd5b6196d1d1b44c2d4fe4700a3c9dd2 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 5d6fdaca72f3ba22fcbf0b27261148b1dd5b6196d1d1b44c2d4fe4700a3c9dd2 (86) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (145 bytes) peer=0
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 2424a3f65c692f89a979ad3901e64cd35b8fe8ab304e0f40f11c2379c2aac965 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 622e3e99700a9a55938fa34d2eee8fd222ecd300b958cf8e2f09bd15070de6a5 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=622e3e99700a9a55938fa34d2eee8fd222ecd300b958cf8e2f09bd15070de6a5 height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2022-04-04T19:18:27Z' progress=1.000000 cache=0.0MiB(83txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 7c3ad9e4fb8b2afde2bc0f64ff217ff3af93205d0eff44abf986fffa629d127a from  peer=0
+2022-04-04T19:18:12Z Requesting block 3b1e8820ecf322183f6e944ab0c7dca8f2c5e7c564974c8efe851f2f2c1de1c6 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 3b1e8820ecf322183f6e944ab0c7dca8f2c5e7c564974c8efe851f2f2c1de1c6 (89) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 00c66eb9f634631e1f9275a1495ea8f51d0d779667ca6e7f23b21dc70f7b9aae peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=00c66eb9f634631e1f9275a1495ea8f51d0d779667ca6e7f23b21dc70f7b9aae height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2022-04-04T19:18:27Z' progress=1.000000 cache=0.0MiB(84txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 425a9dafd9de44b4a5d1398c59e0b713687a165084296d51fa194520d21619db peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=425a9dafd9de44b4a5d1398c59e0b713687a165084296d51fa194520d21619db height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2022-04-04T19:18:27Z' progress=1.000000 cache=0.0MiB(85txo)
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 5d9e32e5becfad9f6ef7ac1d3713cbee8278b52d78c3cb1fe684a01a3027ac79 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 5d6fdaca72f3ba22fcbf0b27261148b1dd5b6196d1d1b44c2d4fe4700a3c9dd2 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=5d6fdaca72f3ba22fcbf0b27261148b1dd5b6196d1d1b44c2d4fe4700a3c9dd2 height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2022-04-04T19:18:28Z' progress=1.000000 cache=0.0MiB(86txo)
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 2424a3f65c692f89a979ad3901e64cd35b8fe8ab304e0f40f11c2379c2aac965 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=2424a3f65c692f89a979ad3901e64cd35b8fe8ab304e0f40f11c2379c2aac965 height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2022-04-04T19:18:28Z' progress=1.000000 cache=0.0MiB(87txo)
+2022-04-04T19:18:12Z received: headers (163 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 6d9b25b0cdefd62648c6c059de5f9419aa7a6b58b79b9fc70cb36e7a480bf62e from  peer=0
+2022-04-04T19:18:12Z Requesting block 64942c4a5477bbc9fe4d0cdbef1407aec6fb0daa5c1767223b91d92831b149bc from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 64942c4a5477bbc9fe4d0cdbef1407aec6fb0daa5c1767223b91d92831b149bc (92) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (73 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 7c3ad9e4fb8b2afde2bc0f64ff217ff3af93205d0eff44abf986fffa629d127a peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=7c3ad9e4fb8b2afde2bc0f64ff217ff3af93205d0eff44abf986fffa629d127a height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2022-04-04T19:18:28Z' progress=1.000000 cache=0.0MiB(88txo)
+2022-04-04T19:18:12Z received: headers (244 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 4bcffcdcafc7a954d291e9f84e8c222da1b34f8204af0a0b7e06ed7886ebfc0d from  peer=0
+2022-04-04T19:18:12Z Requesting block 3a58dd22ec2bf7e3aa46d302a5540e0519fbbdf65fa71d48e57a25553f6c9afb from  peer=0
+2022-04-04T19:18:12Z Requesting block 30ae6dd29fb2b69fade32ba9d67f23633ed9f7a093940899293535b6ea5c1e12 from  peer=0
+2022-04-04T19:18:12Z Downloading blocks toward 30ae6dd29fb2b69fade32ba9d67f23633ed9f7a093940899293535b6ea5c1e12 (95) via headers direct fetch
+2022-04-04T19:18:12Z sending getdata (109 bytes) peer=0
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 783059cc49eb4f974185e087e7f7d8654354239ba9b6bd2bde6f2b5bcca0d6c8 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 3b1e8820ecf322183f6e944ab0c7dca8f2c5e7c564974c8efe851f2f2c1de1c6 peer=0
+2022-04-04T19:18:12Z UpdateTip: new best=3b1e8820ecf322183f6e944ab0c7dca8f2c5e7c564974c8efe851f2f2c1de1c6 height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2022-04-04T19:18:28Z' progress=1.000000 cache=0.0MiB(89txo)
+2022-04-04T19:18:12Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:12Z Requesting block 7d5dc601075a55a7d6576ce03bfe81222b64d929cf64c6e18f18bb2e6a943684 from  peer=0
+2022-04-04T19:18:12Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:12Z received: block (251 bytes) peer=0
+2022-04-04T19:18:12Z received block 5d9e32e5becfad9f6ef7ac1d3713cbee8278b52d78c3cb1fe684a01a3027ac79 peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=5d9e32e5becfad9f6ef7ac1d3713cbee8278b52d78c3cb1fe684a01a3027ac79 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2022-04-04T19:18:28Z' progress=1.000000 cache=0.0MiB(90txo)
+2022-04-04T19:18:13Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:13Z Requesting block 17a7b96a197673f0a19852004e57ebb45b6235df84d753d7b652a8917ce8b367 from  peer=0
+2022-04-04T19:18:13Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:13Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:13Z Requesting block 59225210effeb3955fbf7efdb204ab83468d207a0baf8e65c7e58d963f6f2bb8 from  peer=0
+2022-04-04T19:18:13Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:13Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:13Z Requesting block 7b18e4befc4ca6397aa89dd39b0adf30254eaf6821aab7025e82693f387069f5 from  peer=0
+2022-04-04T19:18:13Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 6d9b25b0cdefd62648c6c059de5f9419aa7a6b58b79b9fc70cb36e7a480bf62e peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=6d9b25b0cdefd62648c6c059de5f9419aa7a6b58b79b9fc70cb36e7a480bf62e height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2022-04-04T19:18:28Z' progress=1.000000 cache=0.0MiB(91txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 64942c4a5477bbc9fe4d0cdbef1407aec6fb0daa5c1767223b91d92831b149bc peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=64942c4a5477bbc9fe4d0cdbef1407aec6fb0daa5c1767223b91d92831b149bc height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2022-04-04T19:18:29Z' progress=1.000000 cache=0.0MiB(92txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 4bcffcdcafc7a954d291e9f84e8c222da1b34f8204af0a0b7e06ed7886ebfc0d peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=4bcffcdcafc7a954d291e9f84e8c222da1b34f8204af0a0b7e06ed7886ebfc0d height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2022-04-04T19:18:29Z' progress=1.000000 cache=0.0MiB(93txo)
+2022-04-04T19:18:13Z received: cmpctblock (261 bytes) peer=0
+2022-04-04T19:18:13Z Requesting block 10e1a92c36866afbaad1f9862b2a6b9d6ab7e93209bed27049017423d7db734e from  peer=0
+2022-04-04T19:18:13Z sending getdata (37 bytes) peer=0
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 3a58dd22ec2bf7e3aa46d302a5540e0519fbbdf65fa71d48e57a25553f6c9afb peer=0
+2022-04-04T19:18:13Z [default wallet] keypool reserve 1
+2022-04-04T19:18:13Z [default wallet] keypool keep 1
+2022-04-04T19:18:13Z UpdateTip: new best=3a58dd22ec2bf7e3aa46d302a5540e0519fbbdf65fa71d48e57a25553f6c9afb height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2022-04-04T19:18:29Z' progress=1.000000 cache=0.0MiB(94txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 30ae6dd29fb2b69fade32ba9d67f23633ed9f7a093940899293535b6ea5c1e12 peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=30ae6dd29fb2b69fade32ba9d67f23633ed9f7a093940899293535b6ea5c1e12 height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2022-04-04T19:18:29Z' progress=1.000000 cache=0.0MiB(95txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 783059cc49eb4f974185e087e7f7d8654354239ba9b6bd2bde6f2b5bcca0d6c8 peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=783059cc49eb4f974185e087e7f7d8654354239ba9b6bd2bde6f2b5bcca0d6c8 height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2022-04-04T19:18:29Z' progress=1.000000 cache=0.0MiB(96txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 7d5dc601075a55a7d6576ce03bfe81222b64d929cf64c6e18f18bb2e6a943684 peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=7d5dc601075a55a7d6576ce03bfe81222b64d929cf64c6e18f18bb2e6a943684 height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2022-04-04T19:18:29Z' progress=1.000000 cache=0.0MiB(97txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 17a7b96a197673f0a19852004e57ebb45b6235df84d753d7b652a8917ce8b367 peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=17a7b96a197673f0a19852004e57ebb45b6235df84d753d7b652a8917ce8b367 height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2022-04-04T19:18:30Z' progress=1.000000 cache=0.0MiB(98txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 59225210effeb3955fbf7efdb204ab83468d207a0baf8e65c7e58d963f6f2bb8 peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=59225210effeb3955fbf7efdb204ab83468d207a0baf8e65c7e58d963f6f2bb8 height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2022-04-04T19:18:30Z' progress=1.000000 cache=0.0MiB(99txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 7b18e4befc4ca6397aa89dd39b0adf30254eaf6821aab7025e82693f387069f5 peer=0
+2022-04-04T19:18:13Z trying connection 127.0.0.1:10145 lastseen=0.0hrs
+2022-04-04T19:18:13Z Added connection peer=1
+2022-04-04T19:18:13Z UpdateTip: new best=7b18e4befc4ca6397aa89dd39b0adf30254eaf6821aab7025e82693f387069f5 height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2022-04-04T19:18:30Z' progress=1.000000 cache=0.0MiB(100txo)
+2022-04-04T19:18:13Z received: block (251 bytes) peer=0
+2022-04-04T19:18:13Z received block 10e1a92c36866afbaad1f9862b2a6b9d6ab7e93209bed27049017423d7db734e peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=10e1a92c36866afbaad1f9862b2a6b9d6ab7e93209bed27049017423d7db734e height=101 version=0x20000000 log2_work=7.6724253 tx=102 date='2022-04-04T19:18:30Z' progress=1.000000 cache=0.0MiB(101txo)
+2022-04-04T19:18:13Z received: cmpctblock (267 bytes) peer=0
+2022-04-04T19:18:13Z sending version (102 bytes) peer=1
+2022-04-04T19:18:13Z sending getblocktxn (34 bytes) peer=0
+2022-04-04T19:18:13Z send version message: version 70015, blocks=98, us=[::]:0, peer=1
+2022-04-04T19:18:13Z received: blocktxn (280 bytes) peer=0
+2022-04-04T19:18:13Z UpdateTip: new best=7aac980ef405bf78e99e833a25a0b5db4e3585698f48807d23a9fd89e198960d height=102 version=0x20000000 log2_work=7.6865005 tx=104 date='2022-04-04T19:18:30Z' progress=1.000000 cache=0.0MiB(104txo)
+2022-04-04T19:18:13Z received: version (102 bytes) peer=1
+2022-04-04T19:18:13Z sending verack (0 bytes) peer=1
+2022-04-04T19:18:13Z [default wallet] AddToWallet 1c0c19868c8974a4c6906da673ab1333163cd5b3b293a62d9cd93fc3b8919c75  new
+2022-04-04T19:18:13Z ProcessMessages: advertising address [2607:9880:3118:e8::3cd2]:10112
+2022-04-04T19:18:13Z sending getaddr (0 bytes) peer=1
+2022-04-04T19:18:13Z receive version message: /Satoshi:0.18.0/: version 70015, blocks=102, us=[::]:0, peer=1
+2022-04-04T19:18:13Z received: verack (0 bytes) peer=1
+2022-04-04T19:18:13Z New outbound peer connected: version: 70015, blocks=102, peer=1
+2022-04-04T19:18:13Z sending sendheaders (0 bytes) peer=1
+2022-04-04T19:18:13Z sending sendcmpct (9 bytes) peer=1
+2022-04-04T19:18:13Z sending sendcmpct (9 bytes) peer=1
+2022-04-04T19:18:13Z sending ping (8 bytes) peer=1
+2022-04-04T19:18:13Z AdvertiseLocal: advertising address [2607:9880:3118:e8::3cd2]:10112
+2022-04-04T19:18:13Z sending addr (31 bytes) peer=1
+2022-04-04T19:18:13Z initial getheaders (101) to peer=1 (startheight:102)
+2022-04-04T19:18:13Z sending getheaders (613 bytes) peer=1
+2022-04-04T19:18:13Z sending feefilter (8 bytes) peer=1
+2022-04-04T19:18:13Z received: sendheaders (0 bytes) peer=1
+2022-04-04T19:18:13Z received: sendcmpct (9 bytes) peer=1
+2022-04-04T19:18:13Z received: sendcmpct (9 bytes) peer=1
+2022-04-04T19:18:13Z received: ping (8 bytes) peer=1
+2022-04-04T19:18:13Z sending pong (8 bytes) peer=1
+2022-04-04T19:18:13Z received: addr (31 bytes) peer=1
+2022-04-04T19:18:13Z received: getheaders (613 bytes) peer=1
+2022-04-04T19:18:13Z getheaders 102 to end from peer=1
+2022-04-04T19:18:13Z sending headers (82 bytes) peer=1
+2022-04-04T19:18:13Z received: feefilter (8 bytes) peer=1
+2022-04-04T19:18:13Z received: feefilter of 0.00001000 BTC/kB from peer=1
+2022-04-04T19:18:13Z received: pong (8 bytes) peer=1
+2022-04-04T19:18:13Z pong peer=1: Timing mishap, ba05a0028991689 expected, ba05a0028991689 received, 8 bytes
+2022-04-04T19:18:13Z received: headers (82 bytes) peer=1
+2022-04-04T19:18:13Z [default wallet] keypool added 1 keys (0 internal), size=20 (10 internal)
+2022-04-04T19:18:13Z [default wallet] keypool reserve 11
+2022-04-04T19:18:13Z [default wallet] Fee Calculation: Fee:3320 Bytes:166 Needed:3320 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) nan% 0.0/(0.0 0 mem 0.0 out)
+2022-04-04T19:18:13Z [default wallet] CommitTransaction:
+CTransaction(hash=1d42cef0be, ver=2, vin.size=1, vout.size=2, nLockTime=102)
+    CTxIn(COutPoint(1c0c19868c, 1), scriptSig=160014b1ca5904bd80e53e46, nSequence=4294967294)
+    CScriptWitness(30440220511717871a51ca023705359f41cf66e43cd5a883974d086116457ea78074a45402202d5475e118ede5582162c8736be2279bce3e2d196d21901b952fe7208db690ae01, 0226c1ae37fc41883907ac3076fd6b721fe805d8e8c4be18c350dac328483e9f4d)
+    CTxOut(nValue=18.99996680, scriptPubKey=a914ad650e4ead5052cc0496036d46)
+    CTxOut(nValue=1.00000000, scriptPubKey=a9145b97b6599a85c9f959766cdaed)
+2022-04-04T19:18:13Z [default wallet] keypool keep 11
+2022-04-04T19:18:13Z [default wallet] AddToWallet 1d42cef0be941c1b350b560343fecd9afbfaf837164ae6db4fb2e5620c3f1a38  new
+2022-04-04T19:18:13Z [default wallet] Relaying wtx 1d42cef0be941c1b350b560343fecd9afbfaf837164ae6db4fb2e5620c3f1a38
+2022-04-04T19:18:13Z [default wallet] AddToWallet 1d42cef0be941c1b350b560343fecd9afbfaf837164ae6db4fb2e5620c3f1a38  
+2022-04-04T19:18:13Z [default wallet] keypool added 1 keys (1 internal), size=20 (10 internal)
+2022-04-04T19:18:13Z [default wallet] keypool reserve 2
+2022-04-04T19:18:13Z [default wallet] keypool keep 2
+2022-04-04T19:18:13Z CreateNewBlock(): block weight: 1553 txs: 1 fees: 3320 sigops 401
+2022-04-04T19:18:13Z UpdateTip: new best=14011fe55f0496a9fc2083d6a580b4fa52a5344a2cb7adfd8dbf7ee4383f0dda height=103 version=0x20000000 log2_work=7.7004397 tx=106 date='2022-04-04T19:18:30Z' progress=1.000000 cache=0.0MiB(106txo)
+2022-04-04T19:18:13Z [default wallet] AddToWallet 9131a9f4b31df7cc30df4b4ad8a1fec144acf82e88101ec5a19cf77fae76b1a4  new
+2022-04-04T19:18:13Z [default wallet] AddToWallet 1d42cef0be941c1b350b560343fecd9afbfaf837164ae6db4fb2e5620c3f1a38  update
+2022-04-04T19:18:13Z SendMessages: sending header 14011fe55f0496a9fc2083d6a580b4fa52a5344a2cb7adfd8dbf7ee4383f0dda to peer=0
+2022-04-04T19:18:13Z sending headers (82 bytes) peer=0
+2022-04-04T19:18:13Z SendMessages: sending header 14011fe55f0496a9fc2083d6a580b4fa52a5344a2cb7adfd8dbf7ee4383f0dda to peer=1
+2022-04-04T19:18:13Z sending headers (82 bytes) peer=1
+2022-04-04T19:18:13Z trying connection 127.0.0.1:12485 lastseen=0.0hrs
+2022-04-04T19:18:13Z received: getdata (37 bytes) peer=0
+2022-04-04T19:18:13Z received getdata (1 invsz) peer=0
+2022-04-04T19:18:13Z received getdata for: cmpctblock 14011fe55f0496a9fc2083d6a580b4fa52a5344a2cb7adfd8dbf7ee4383f0dda peer=0
+2022-04-04T19:18:13Z sending cmpctblock (267 bytes) peer=0
+2022-04-04T19:18:13Z received: getblocktxn (34 bytes) peer=0
+2022-04-04T19:18:13Z sending blocktxn (280 bytes) peer=0
+2022-04-04T19:18:13Z received: sendcmpct (9 bytes) peer=0
+2022-04-04T19:18:13Z Added connection peer=2
+2022-04-04T19:18:13Z sending version (102 bytes) peer=2
+2022-04-04T19:18:13Z send version message: version 70015, blocks=103, us=[::]:0, peer=2

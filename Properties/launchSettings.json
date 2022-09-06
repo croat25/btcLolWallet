@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "btcExperiment": {
+      "commandName": "Project",
+      "commandLineArgs": "show-history wallet-file=wallet.dat",
+      "workingDirectory": "C:\\Users\\leroy\\Desktop\\btcExperiment"
+    }
+  }
+}
